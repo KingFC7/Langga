@@ -77,9 +77,4 @@ document.addEventListener('DOMContentLoaded', function() {
             modal.style.display = "none";
         }
     });
-
-    // Lyrics toggle
-    document.querySelector('.lyrics-header').addEventListener('click', function() {
-        document.querySelector('.lyrics-container').classList.toggle('open');
-    });
 });
